@@ -5,6 +5,7 @@ MediaPipeで検出した顔の特徴点に顔の3Dモデルをマッピングす
 
 ## 実行方法
 python main.py [--texture nomask.jpg] [--draw_landmark]
+python3.10 main.py
 - 引数
   - texture	    使用するテクスチャ画像のファイルパスを指定します（省略可）
   - draw_landmark	ランドマークを描画する場合に指定します（省略可）
